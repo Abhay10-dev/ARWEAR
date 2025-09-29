@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "pnpm build || npm run build",
+  "installCommand": "pnpm i --frozen-lockfile || npm ci",
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}
+
